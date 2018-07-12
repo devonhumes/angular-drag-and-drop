@@ -2,5 +2,10 @@
 .container {
   display: grid;
   grid-template-columns: 480px auto;
-  height: 1200px;
+  height: 800px;
+  border: 1px solid #e8e8e8;
+
+  app-criteria-list {
+    border-right: 1px solid #E8E8E8;
+  }
 }
